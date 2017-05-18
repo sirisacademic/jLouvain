@@ -1,15 +1,16 @@
 # jLouvain 
 Bower repository of jLouvain algorithm in javascript.
 
-Author: *Corneliu S.* [source](https://github.com/upphiminn/jLouvain)
+Author: *Corneliu S.* ([source](https://github.com/upphiminn/jLouvain))
 
 ## Usage
-1. Install jlouvain using Bower in your terminal,
+### Install jlouvain using Bower
+Run in your terminal the following line,
 ```
 bower install --save https://bitbucket.org/sirisacademic/jlouvain.git
 ```
 
-2. Sample Data Format
+### Sample Data Format
 #### Node Data
 List of nodes ids. Any type of string can be used as id.
 
@@ -26,13 +27,14 @@ var edge_data = [
 	];
 ```
 
-#### (Optional) Partition Data
+#### Partition Data *(Optional)*
 Object with ids of nodes as properties and community number assigned as value.
 ```
 var init_part = {'id1':0, 'id2':0, 'id3': 1}; 
 ```
 
-3. Run the Algorithm on your node and edge set by chaining the **nodes** and **edges** methods, optionally you can provide an intermediary community partition assignement with the **partition_init** method. [ **Order of chaining is important** ]
+### Run the Algorithm 
+Run the Algorithm on your node and edge set by chaining the **nodes** and **edges** methods, optionally you can provide an intermediary community partition assignement with the **partition_init** method. [ **Order of chaining is important** ]
 ```
 var community = jLouvain().nodes(node_data).edges(edge_data).partition_init(init_part);
 var result  = community();

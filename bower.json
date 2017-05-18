@@ -1,0 +1,19 @@
+{
+  "name": "jlouvain",
+  "main": "jlouvain.js",
+  "authors": [
+    "quartile <arnau.quinquilla@sirisacademic.com>"
+  ],
+  "description": "Bower repository of jLouvain algorithm in javascript.",
+  "keywords": [
+    "Louvain",
+    "Community detection"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "*",
+    "!jlouvain.js"
+  ]
+}

@@ -1,5 +1,5 @@
 # jLouvain 
-Bower repository of jLouvain algorithm in javascript.
+Bower repository of Louvain algorithm written in javascript.
 
 Author: *Corneliu S.* ([source](https://github.com/upphiminn/jLouvain))
 

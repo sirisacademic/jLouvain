@@ -5,5 +5,6 @@
   "scripts": {},
   "repository": "https://github.com/sirisacademic/jLouvain",
   "dependencies": {},
-  "devDependencies": {}
+  "devDependencies": {},
+  "files":["jLouvain.js"]
 }

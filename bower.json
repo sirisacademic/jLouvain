@@ -8,6 +8,10 @@
 		"type": "git",
 		"url": "https://github.com/sirisacademic/jLouvain"
 	},
-	"dependencies": {}
+	"dependencies": {},
+	"ignore": [
+ 	  	"*",
+   		"!jLouvain.js"
+   	]
 }
 

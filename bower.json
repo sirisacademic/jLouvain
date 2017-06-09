@@ -5,13 +5,9 @@
 	"description": "Louvain community detection for Javascript",
 	"keywords": ["graph", "community detection algorithm"],
 	"repository": {
-	"type": "git",
-	"url": "https://github.com/sirisacademic/jLouvain"
+		"type": "git",
+		"url": "https://github.com/sirisacademic/jLouvain"
 	},
-	"dependencies": {},
-	"ignore": [
-		"*",
-		"!jLouvain.js"
-	]
+	"dependencies": {}
 }
 

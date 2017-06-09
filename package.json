@@ -1,0 +1,9 @@
+{
+  "name": "j-louvain",
+  "version": "0.0.0",
+  "description": "Louvain community detection for Javascript",
+  "scripts": {},
+  "repository": "https://github.com/sirisacademic/jLouvain",
+  "dependencies": {},
+  "devDependencies": {}
+}

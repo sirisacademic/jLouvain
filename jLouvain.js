@@ -22,7 +22,7 @@
 
 // To get to know more about the Universal Module Definition
 // visit: https://github.com/umdjs/umd
-
+  return function () {
     'use strict';
     //Constants
     var __PASS_MAX = -1;
@@ -412,4 +412,5 @@
     };
 
     return core;
+  }
 }));

@@ -1,11 +1,15 @@
 # jLouvain 
+UMD module from https://www.npmjs.com/package/jlouvain
 **Corneliu S.**
+
 
 ---
 ## Installation
 **Bower:** 
 ```bower install sirisacademic/jLouvain```
+
 ```bower install git://github.com/sirisacademic/jLouvain.git```
+
 **Npm:**
 ```npm install https://github.com/sirisacademic/jLouvain```
 
